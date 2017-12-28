@@ -7,9 +7,9 @@
 	<!-- org.springframework.jdbc.datasource.DriverManagerDataSource -->
 	<bean id="dataSourceMySQL" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://eeu1234.iptime.org:3306/camsns" />
-		<property name="username" value="eeu1234" />
-		<property name="password" value="thskxk4889" />
+		<property name="url" value="jdbc:mysql://220.66.67.249:3306/jaeyeon" />
+		<property name="username" value="jaeyeon.lee" />
+		<property name="password" value="cambus2017@" />
 	</bean>
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
